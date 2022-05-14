@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HZC | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+    />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <button class="header__menu" aria-label="Menu"><i></i></button>
+      <img
+        src="assets/img/logo.svg"
+        alt="Logotipo da HZC"
+        class="header__logo"
+      />
+      <p class="header__profile">Ana Clara Araújo</p>
+      <button class="header__notification" aria-label="Notificação">
+        <i></i>
+      </button>
+    </header>
+    <nav class="sidebar">
+      <img
+        src="assets/img/logo.svg"
+        alt="Logotipo da HZC"
+        class="sidebar__logo"
+      />
+      <a href="index.html" class="sidebar__link sidebar__link--inicio"
+        >Início</a
+      >
+      <a href="videos.html" class="sidebar__link sidebar__link--videos"
+        >Vídeos</a
+      >
+      <a
+        href="picos.html"
+        class="sidebar__link sidebar__link--picos sidebar__link--active"
+        >Picos</a
+      >
+      <a href="members.html" class="sidebar__link sidebar__link--integrantes"
+        >Integrantes</a
+      >
+      <a href="shirts.html" class="sidebar__link sidebar__link--camisas"
+        >Camisas</a
+      >
+      <a href="panting.html" class="sidebar__link sidebar__link--pinturas"
+        >Pinturas</a
+      >
+    </nav>
+    <main class="home-screen">
+      <!-- imagem -->
+      <article class="card cartao--destaque destaque-video">
+        <img
+          src="assets/img/artigo_1.png"
+          alt="Banner do cartao"
+          class="card__image card__image--mobile"
+        />
+        <img
+          src="assets/img/artigo_1.png"
+          alt="Banner do cartao"
+          class="card__image card__image--desktop"
+        />
+      </article>
+      <!-- texto -->
+
+      <article class="card cartao--recentes videos-recentes">
+        <h3 class="card__title">Júlia</h3>
+        <a href="#" class="card__link">Ver todos</a>
+      </article>
+
+      <section class="section section-videos">
+        <h3 class="title-section">Gap do Itaú da Voluntários da Pátria</h3>
+        <div class="article__author">
+          <div class="info__image__autor">
+            <img src="assets/img/profile_2.png" alt="" class="image__autor" />
+            <p class="card_profile">Ana Clara Araújo</p>
+          </div>
+          <p class="card__info card__info--views">33 visualizações</p>
+        </div>
+        <!-- <article class="card"></article> -->
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
